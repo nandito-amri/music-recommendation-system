@@ -22,7 +22,19 @@ To run this project, you will need to add the following environment variables to
 Set your environment variables.
 
 ```python
-DATASET_FOLDER_PATH='<project-path>/database/datasets'
+DATASET_FOLDER_PATH='<project-path>/datasets'
+```
+
+Create and activate a virtual environment.
+
+```bash
+python3 -m venv env
+
+# Using MacOS 
+source env/bin/activate
+
+# Using CMD
+env\Scripts\activate.bat
 ```
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all modules and packages.
@@ -39,8 +51,8 @@ Run the codes in `app.ipynb` file to execute this projects.
 ## Authors
 
 - Nandito Fatoni Amri
-  - (GitHub @nandito-amri)(https://www.github.com/nandito-amri): 
-  - Email: nandito.f.amri@gmai.com
+  - GitHub: [@nandito-amri](https://www.github.com/nandito-amri)
+  - Email: nandito.f.amri@gmail.com
 
 
 ## Features
